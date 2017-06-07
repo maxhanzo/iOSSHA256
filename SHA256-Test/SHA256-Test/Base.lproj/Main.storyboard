@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mls-2a-chD">
+                                <rect key="frame" x="156" y="260.66666666666669" width="102" height="30"/>
+                                <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="generateHash:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F1T-CR-0TB"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Input your string" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8t1-Om-nZz">
+                                <rect key="frame" x="20" y="172.66666666666666" width="374" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your SHA256 Encoded Value" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A18-EO-Z6F">
+                                <rect key="frame" x="29" y="323.66666666666669" width="356" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="mls-2a-chD" secondAttribute="trailing" constant="157" id="09e-NS-ngQ"/>
+                            <constraint firstItem="mls-2a-chD" firstAttribute="top" secondItem="8t1-Om-nZz" secondAttribute="bottom" constant="58" id="9Ox-Yj-v8V"/>
+                            <constraint firstItem="8t1-Om-nZz" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="DXZ-O6-wPO"/>
+                            <constraint firstItem="8t1-Om-nZz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Fzg-r0-fhf"/>
+                            <constraint firstItem="8t1-Om-nZz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NN3-d6-Bw5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="A18-EO-Z6F" secondAttribute="trailing" constant="9" id="XZh-Lk-L8p"/>
+                            <constraint firstItem="A18-EO-Z6F" firstAttribute="top" secondItem="mls-2a-chD" secondAttribute="bottom" constant="33" id="YxT-du-sRI"/>
+                            <constraint firstItem="mls-2a-chD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="csP-jC-3X5"/>
+                            <constraint firstItem="A18-EO-Z6F" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="9" id="ggk-IZ-0ow"/>
+                            <constraint firstItem="mls-2a-chD" firstAttribute="leading" relation="lessThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="156" id="rca-23-V3K"/>
+                            <constraint firstItem="mls-2a-chD" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-92.5" id="tah-IS-mPS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="lblHashed" destination="A18-EO-Z6F" id="ldf-38-P9I"/>
+                        <outlet property="txtValue" destination="8t1-Om-nZz" id="GGn-8A-Gdp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+</document>

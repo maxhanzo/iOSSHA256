@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B079F7E1EE840490095CEDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B079F7D1EE840490095CEDB /* main.m */; };
+		2B079F811EE840490095CEDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B079F801EE840490095CEDB /* AppDelegate.m */; };
+		2B079F841EE840490095CEDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B079F831EE840490095CEDB /* ViewController.m */; };
+		2B079F871EE840490095CEDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B079F851EE840490095CEDB /* Main.storyboard */; };
+		2B079F891EE840490095CEDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B079F881EE840490095CEDB /* Assets.xcassets */; };
+		2B079F8C1EE840490095CEDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B079F8A1EE840490095CEDB /* LaunchScreen.storyboard */; };
+		2B079F971EE840490095CEDB /* SHA256_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B079F961EE840490095CEDB /* SHA256_TestTests.m */; };
+		2B079FA21EE840490095CEDB /* SHA256_TestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B079FA11EE840490095CEDB /* SHA256_TestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B079F931EE840490095CEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B079F711EE840490095CEDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B079F781EE840490095CEDB;
+			remoteInfo = "SHA256-Test";
+		};
+		2B079F9E1EE840490095CEDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B079F711EE840490095CEDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2B079F781EE840490095CEDB;
+			remoteInfo = "SHA256-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B079F791EE840490095CEDB /* SHA256-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHA256-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B079F7D1EE840490095CEDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2B079F7F1EE840490095CEDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2B079F801EE840490095CEDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2B079F821EE840490095CEDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2B079F831EE840490095CEDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2B079F861EE840490095CEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B079F881EE840490095CEDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B079F8B1EE840490095CEDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B079F8D1EE840490095CEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B079F921EE840490095CEDB /* SHA256-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SHA256-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B079F961EE840490095CEDB /* SHA256_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHA256_TestTests.m; sourceTree = "<group>"; };
+		2B079F981EE840490095CEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B079F9D1EE840490095CEDB /* SHA256-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SHA256-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B079FA11EE840490095CEDB /* SHA256_TestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHA256_TestUITests.m; sourceTree = "<group>"; };
+		2B079FA31EE840490095CEDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B079F761EE840490095CEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B079F8F1EE840490095CEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B079F9A1EE840490095CEDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B079F701EE840490095CEDB = {
+			isa = PBXGroup;
+			children = (
+				2B079F7B1EE840490095CEDB /* SHA256-Test */,
+				2B079F951EE840490095CEDB /* SHA256-TestTests */,
+				2B079FA01EE840490095CEDB /* SHA256-TestUITests */,
+				2B079F7A1EE840490095CEDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2B079F7A1EE840490095CEDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B079F791EE840490095CEDB /* SHA256-Test.app */,
+				2B079F921EE840490095CEDB /* SHA256-TestTests.xctest */,
+				2B079F9D1EE840490095CEDB /* SHA256-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B079F7B1EE840490095CEDB /* SHA256-Test */ = {
+			isa = PBXGroup;
+			children = (
+				2B079F7F1EE840490095CEDB /* AppDelegate.h */,
+				2B079F801EE840490095CEDB /* AppDelegate.m */,
+				2B079F821EE840490095CEDB /* ViewController.h */,
+				2B079F831EE840490095CEDB /* ViewController.m */,
+				2B079F851EE840490095CEDB /* Main.storyboard */,
+				2B079F881EE840490095CEDB /* Assets.xcassets */,
+				2B079F8A1EE840490095CEDB /* LaunchScreen.storyboard */,
+				2B079F8D1EE840490095CEDB /* Info.plist */,
+				2B079F7C1EE840490095CEDB /* Supporting Files */,
+			);
+			path = "SHA256-Test";
+			sourceTree = "<group>";
+		};
+		2B079F7C1EE840490095CEDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B079F7D1EE840490095CEDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2B079F951EE840490095CEDB /* SHA256-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B079F961EE840490095CEDB /* SHA256_TestTests.m */,
+				2B079F981EE840490095CEDB /* Info.plist */,
+			);
+			path = "SHA256-TestTests";
+			sourceTree = "<group>";
+		};
+		2B079FA01EE840490095CEDB /* SHA256-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2B079FA11EE840490095CEDB /* SHA256_TestUITests.m */,
+				2B079FA31EE840490095CEDB /* Info.plist */,
+			);
+			path = "SHA256-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B079F781EE840490095CEDB /* SHA256-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B079FA61EE840490095CEDB /* Build configuration list for PBXNativeTarget "SHA256-Test" */;
+			buildPhases = (
+				2B079F751EE840490095CEDB /* Sources */,
+				2B079F761EE840490095CEDB /* Frameworks */,
+				2B079F771EE840490095CEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SHA256-Test";
+			productName = "SHA256-Test";
+			productReference = 2B079F791EE840490095CEDB /* SHA256-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2B079F911EE840490095CEDB /* SHA256-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B079FA91EE840490095CEDB /* Build configuration list for PBXNativeTarget "SHA256-TestTests" */;
+			buildPhases = (
+				2B079F8E1EE840490095CEDB /* Sources */,
+				2B079F8F1EE840490095CEDB /* Frameworks */,
+				2B079F901EE840490095CEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B079F941EE840490095CEDB /* PBXTargetDependency */,
+			);
+			name = "SHA256-TestTests";
+			productName = "SHA256-TestTests";
+			productReference = 2B079F921EE840490095CEDB /* SHA256-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2B079F9C1EE840490095CEDB /* SHA256-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B079FAC1EE840490095CEDB /* Build configuration list for PBXNativeTarget "SHA256-TestUITests" */;
+			buildPhases = (
+				2B079F991EE840490095CEDB /* Sources */,
+				2B079F9A1EE840490095CEDB /* Frameworks */,
+				2B079F9B1EE840490095CEDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B079F9F1EE840490095CEDB /* PBXTargetDependency */,
+			);
+			name = "SHA256-TestUITests";
+			productName = "SHA256-TestUITests";
+			productReference = 2B079F9D1EE840490095CEDB /* SHA256-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B079F711EE840490095CEDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Ticket;
+				TargetAttributes = {
+					2B079F781EE840490095CEDB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R5W45TSA3U;
+						ProvisioningStyle = Automatic;
+					};
+					2B079F911EE840490095CEDB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R5W45TSA3U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B079F781EE840490095CEDB;
+					};
+					2B079F9C1EE840490095CEDB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = R5W45TSA3U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2B079F781EE840490095CEDB;
+					};
+				};
+			};
+			buildConfigurationList = 2B079F741EE840490095CEDB /* Build configuration list for PBXProject "SHA256-Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B079F701EE840490095CEDB;
+			productRefGroup = 2B079F7A1EE840490095CEDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B079F781EE840490095CEDB /* SHA256-Test */,
+				2B079F911EE840490095CEDB /* SHA256-TestTests */,
+				2B079F9C1EE840490095CEDB /* SHA256-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B079F771EE840490095CEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B079F8C1EE840490095CEDB /* LaunchScreen.storyboard in Resources */,
+				2B079F891EE840490095CEDB /* Assets.xcassets in Resources */,
+				2B079F871EE840490095CEDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B079F901EE840490095CEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B079F9B1EE840490095CEDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B079F751EE840490095CEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B079F841EE840490095CEDB /* ViewController.m in Sources */,
+				2B079F811EE840490095CEDB /* AppDelegate.m in Sources */,
+				2B079F7E1EE840490095CEDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B079F8E1EE840490095CEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B079F971EE840490095CEDB /* SHA256_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B079F991EE840490095CEDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B079FA21EE840490095CEDB /* SHA256_TestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B079F941EE840490095CEDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B079F781EE840490095CEDB /* SHA256-Test */;
+			targetProxy = 2B079F931EE840490095CEDB /* PBXContainerItemProxy */;
+		};
+		2B079F9F1EE840490095CEDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2B079F781EE840490095CEDB /* SHA256-Test */;
+			targetProxy = 2B079F9E1EE840490095CEDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B079F851EE840490095CEDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B079F861EE840490095CEDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B079F8A1EE840490095CEDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B079F8B1EE840490095CEDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B079FA41EE840490095CEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2B079FA51EE840490095CEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B079FA71EE840490095CEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R5W45TSA3U;
+				INFOPLIST_FILE = "SHA256-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.edenred.ticket.SHA256-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2B079FA81EE840490095CEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R5W45TSA3U;
+				INFOPLIST_FILE = "SHA256-Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.edenred.ticket.SHA256-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2B079FAA1EE840490095CEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R5W45TSA3U;
+				INFOPLIST_FILE = "SHA256-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.edenred.ticket.SHA256-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHA256-Test.app/SHA256-Test";
+			};
+			name = Debug;
+		};
+		2B079FAB1EE840490095CEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = R5W45TSA3U;
+				INFOPLIST_FILE = "SHA256-TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.edenred.ticket.SHA256-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SHA256-Test.app/SHA256-Test";
+			};
+			name = Release;
+		};
+		2B079FAD1EE840490095CEDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R5W45TSA3U;
+				INFOPLIST_FILE = "SHA256-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.edenred.ticket.SHA256-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SHA256-Test";
+			};
+			name = Debug;
+		};
+		2B079FAE1EE840490095CEDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = R5W45TSA3U;
+				INFOPLIST_FILE = "SHA256-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.edenred.ticket.SHA256-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SHA256-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B079F741EE840490095CEDB /* Build configuration list for PBXProject "SHA256-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B079FA41EE840490095CEDB /* Debug */,
+				2B079FA51EE840490095CEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B079FA61EE840490095CEDB /* Build configuration list for PBXNativeTarget "SHA256-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B079FA71EE840490095CEDB /* Debug */,
+				2B079FA81EE840490095CEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B079FA91EE840490095CEDB /* Build configuration list for PBXNativeTarget "SHA256-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B079FAA1EE840490095CEDB /* Debug */,
+				2B079FAB1EE840490095CEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2B079FAC1EE840490095CEDB /* Build configuration list for PBXNativeTarget "SHA256-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B079FAD1EE840490095CEDB /* Debug */,
+				2B079FAE1EE840490095CEDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B079F711EE840490095CEDB /* Project object */;
+}
