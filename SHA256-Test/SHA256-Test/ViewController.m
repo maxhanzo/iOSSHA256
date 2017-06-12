@@ -32,7 +32,7 @@
 
 - (void)textFieldDidBeginEditing:(UITextField *)textField {
         textField.text = @"";
-    self.lblHashed.text = @"Your SHA256 Encoded Value";
+    self.lblHashed.text = @"Your encoded value:";
 }
 
 -(IBAction)generateHash:(id)sender
